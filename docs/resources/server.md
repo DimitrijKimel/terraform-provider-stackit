@@ -108,7 +108,7 @@ description: |-
     keypair_name = stackit_key_pair.keypair.name
     network_interfaces = [
       stackit_network_interface.nic.network_interface_id
-    ]	
+    ]
   }
   
   resource "stackit_public_ip" "public-ip" {
